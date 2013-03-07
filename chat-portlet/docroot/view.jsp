@@ -29,7 +29,7 @@
 	<liferay-util:html-bottom>
 		<script defer="defer" src="<%= PortalUtil.getStaticResourceURL(request, request.getContextPath() + "/js/main.js", portlet.getTimestamp()) %>" type="text/javascript"></script>
 	</liferay-util:html-bottom>
-
+Hi These are my changes
 	<%
 	Status status = StatusLocalServiceUtil.getUserStatus(themeDisplay.getUserId());
 
